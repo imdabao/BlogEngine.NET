@@ -36,14 +36,14 @@ namespace BlogEngine.NET.App_Start
 
                 RegisterDiCintainer();
 
-                ScriptManager.ScriptResourceMapping.AddDefinition("jquery",
-                    new ScriptResourceDefinition
-                    {
-                        Path = "~/Scripts/jquery-2.1.4.min.js",
-                        DebugPath = "~/Scripts/jquery-2.1.4.js",
-                        CdnPath = "http://ajax.microsoft.com/ajax/jQuery/jquery-2.1.4.min.js",
-                        CdnDebugPath = "http://ajax.microsoft.com/ajax/jQuery/jquery-2.1.4.js"
-                    });
+                //ScriptManager.ScriptResourceMapping.AddDefinition("jquery",
+                //    new ScriptResourceDefinition
+                //    {
+                //        Path = "~/Scripts/jquery-2.1.4.min.js",
+                //        DebugPath = "~/Scripts/jquery-2.1.4.js",
+                //        CdnPath = "http://ajax.microsoft.com/ajax/jQuery/jquery-2.1.4.min.js",
+                //        CdnDebugPath = "http://ajax.microsoft.com/ajax/jQuery/jquery-2.1.4.js"
+                //    });
 
                 _initializedAlready = true;
             }
@@ -105,7 +105,7 @@ namespace BlogEngine.NET.App_Start
 
             bundles.Add(
                 new ScriptBundle("~/scripts/blogadmin")
-                .Include("~/Scripts/jquery-{version}.js")
+                .Include("~/Scripts/jquery-2.1.4.js")
                 .Include("~/Scripts/jquery.form.js")
                 .Include("~/Scripts/jquery.validate.js")
                 .Include("~/Scripts/jquery-ui.js")
@@ -151,7 +151,7 @@ namespace BlogEngine.NET.App_Start
 
             bundles.Add(
                 new ScriptBundle("~/scripts/wysiwyg")
-                .Include("~/scripts/jquery-{version}.js")
+                .Include("~/scripts/jquery-2.1.4.js")
                 .Include("~/scripts/jquery.form.js")
                 .Include("~/scripts/jquery.validate.js")
                 .Include("~/scripts/toastr.js")

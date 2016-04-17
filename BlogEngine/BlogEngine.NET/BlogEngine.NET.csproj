@@ -48,6 +48,7 @@
     <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.7.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
@@ -613,6 +614,7 @@
     <Content Include="Custom\Widgets\TagCloud\widget.xml" />
     <Content Include="Custom\Widgets\TextBox\screenshot.png" />
     <Content Include="Custom\Widgets\TextBox\widget.xml" />
+    <Content Include="Custom\Widgets\TwitterTimeline\widget.xml" />
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="FrontPageExample.aspx" />
@@ -759,6 +761,8 @@
     <Content Include="admin\themes\standard\scss\rtl\_rtl.sidebar.scss" />
     <Content Include="admin\themes\standard\scss\rtl\_rtl.tables.scss" />
     <Content Include="admin\themes\standard\scss\styles.scss" />
+    <Content Include="Custom\Widgets\TwitterTimeline\edit.cshtml" />
+    <Content Include="Custom\Widgets\TwitterTimeline\widget.cshtml" />
     <None Include="Scripts\jquery-2.1.4.intellisense.js" />
     <Content Include="Scripts\i18n\angular-locale_aa-dj.js" />
     <Content Include="Scripts\i18n\angular-locale_aa-er.js" />
