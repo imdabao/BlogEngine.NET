@@ -79,7 +79,7 @@ namespace BlogEngine.NET.App_Start
             );
 
             // syntax highlighter 
-            var shRoot = "~/scripts/syntaxhighlighter/";
+            var shRoot = "~/Scripts/syntaxhighlighter/";
             bundles.Add(new StyleBundle("~/Content/highlighter").Include(
                 shRoot + "styles/shCore.css",
                 shRoot + "styles/shThemeDefault.css")
