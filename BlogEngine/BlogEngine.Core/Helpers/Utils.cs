@@ -1425,7 +1425,7 @@
             //}
             //catch { }
 
-            string webConfigPath = HttpContext.Current.Request.PhysicalApplicationPath + "\\web.config";
+            string webConfigPath = Path.Combine(HttpContext.Current.Request.PhysicalApplicationPath, "web.config");
             try
             {
                 File.SetLastWriteTimeUtc(webConfigPath, DateTime.UtcNow);
